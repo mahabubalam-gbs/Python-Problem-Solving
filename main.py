@@ -19,7 +19,7 @@ for i in range(n):
         print("*", end=" ")
     print()
 
-# Right Sided Triangle
+# Right Sided Triangle Pattern 1
 n = 5
 for i in range(n):
     for j in range(i, 5):
@@ -28,3 +28,11 @@ for i in range(n):
         print("*", end=" ")
     print()
 
+# Right Sided Triangle Pattern 2
+n = 5
+for i in range(n):
+    for j in range(i+1):
+        print("", end=" ")
+    for k in range(i, n):
+        print("*", end=" ")
+    print()
