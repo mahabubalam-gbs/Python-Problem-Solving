@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Square Pattern
 n = 5
 for i in range(n):
@@ -85,7 +84,7 @@ for i in range(n):
     for j in range(i+1):
         print("1", end=" ")
     print()
-=======
+
 # Square Pattern
 n = 5
 for i in range(n):
@@ -165,4 +164,4 @@ for i in range(n):
     for l in range(i, n):
         print("*", end=" ")
     print()
->>>>>>> aea3444f2834d50e4a03708643323c0080ec19fe
+
