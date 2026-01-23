@@ -173,8 +173,15 @@ for i in range(n):
     print()
 
 # Incrementing Rows Triangle
-n =5
+n = 5
+for i in range(n):
+    for j in range(i+1):
+        print(i +1, end=" ")
+    print()
+
+# Decrementing Rows Triangle
+n = 5
 for i in range(n):
     for j in range(i +1):
-        print(i +1, end=" ")
+        print(n-i, end=" ")
     print()
