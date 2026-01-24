@@ -172,16 +172,25 @@ for i in range(n):
         print('1', end=" ")
     print()
 
-# Incrementing Rows Triangle
+# Incrementing Rows Triangle Number Pattern
 n = 5
 for i in range(n):
     for j in range(i+1):
-        print(i +1, end=" ")
+        print(i+1, end=" ")
     print()
 
-# Decrementing Rows Triangle
+# Decrementing Rows Triangle Number Pattern
 n = 5
 for i in range(n):
-    for j in range(i +1):
+    for j in range(i+1):
         print(n-i, end=" ")
+    print()
+
+# Incrementing Rows by 2 Triangle Number Pattern
+n = 5
+p = 0
+for i in range(n):
+    for j in range(i+1):
+        print(p, end=" ")
+    p+=2
     print()
